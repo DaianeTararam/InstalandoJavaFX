@@ -44,7 +44,7 @@ Dentro da pasta `.vscode`, crie o arquivo `launch.json` com esse conteúdo:
       "name": "Launch JavaFX",
       "request": "launch",
       "mainClass": "Teste",
-      "vmArgs": "--module-path lib --add-modules javafx.controls,javafx.fxml"
+      "vmArgs": "--module-path C:\javafx-sdk-24.0.1\lib --add-modules javafx.controls,javafx.fxml"
     }
   ]
 }
@@ -59,8 +59,8 @@ Dentro da pasta `.vscode`, crie o arquivo `launch.json` com esse conteúdo:
 
 Ou use o terminal:
 ```bash
-javac --module-path lib --add-modules javafx.controls,javafx.fxml src/Teste.java
-java --module-path lib --add-modules javafx.controls,javafx.fxml -cp src Teste
+javac --module-path "C:\javafx-sdk-24.0.1\lib" --add-modules javafx.controls Teste.java
+java --module-path "C:\javafx-sdk-24.0.1\lib" --add-modules javafx.controls,javafx.fxml -cp src Teste
 ```
 
 ---

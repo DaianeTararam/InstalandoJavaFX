@@ -66,4 +66,3 @@ java --module-path lib --add-modules javafx.controls,javafx.fxml -cp src Main
 ---
 
 Feito com carinho por **Daiane Tararam** ✨🚀
-[![Daiane Tararam](https://github.com/DaianeTararam.png?size=100)](https://github.com/DaianeTararam)

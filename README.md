@@ -6,7 +6,7 @@
 - Extraia para dentro da pasta `lib/` do seu projeto (exemplo: `JavaFX-Projeto/lib`)
 
 ### 2. Criar o Arquivo Java
-Dentro da pasta `src`, crie um arquivo chamado `Main.java` com este código:
+Dentro da pasta `src`, crie um arquivo chamado `Teste.java` com este código:
 
 ```java
 import javafx.application.Application;
@@ -15,7 +15,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class Teste extends Application {
     @Override
     public void start(Stage primaryStage) {
         Label label = new Label("Hello, JavaFX!");
@@ -59,8 +59,8 @@ Dentro da pasta `.vscode`, crie o arquivo `launch.json` com esse conteúdo:
 
 Ou use o terminal:
 ```bash
-javac --module-path lib --add-modules javafx.controls,javafx.fxml src/Main.java
-java --module-path lib --add-modules javafx.controls,javafx.fxml -cp src Main
+javac --module-path lib --add-modules javafx.controls,javafx.fxml src/Teste.java
+java --module-path lib --add-modules javafx.controls,javafx.fxml -cp src Teste
 ```
 
 ---
